@@ -17,10 +17,18 @@ public class Test {
         setOfNumbers3.checkForPositiveNumber();
         setOfNumbers3.checkForEquality();
 
-        Numbers average = new Numbers();
-        average.setA(7);
-        average.setB(6);
-        average.calculateAverage(average.a, average.b);
-        average.calculateSum(average.a, average.b);
+        System.out.println(calculateAverage(6,23));
+
+        System.out.println(calculateSum(calculateAverage(3, 6), calculateAverage(5, 9)));
+        }
+
+        public static double calculateAverage(double a, double b){
+            return (a + b)/2;
+        }
+
+        public static double calculateSum(double a, double b){
+            return a + b;
+        }
     }
-}
+
+

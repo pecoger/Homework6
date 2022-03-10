@@ -64,14 +64,4 @@ public class Numbers {
             System.out.println("The numbers are not equal.");
         }
     }
-
-    public void calculateAverage (double a, double b){
-        double average = (a + b)/2;
-        System.out.println("The average is: " + average);
-    }
-
-    public void calculateSum(double a, double b){
-        double sum = a + b;
-        System.out.println("The sum is: " + sum);
-    }
 }
